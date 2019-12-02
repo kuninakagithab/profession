@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+form{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box{
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+.question{
+  width: 50%;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.cbox{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-radius: 3px;
+  font-size: 30px;
+  box-shadow: 3px 3px black;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+.welcomebox{
+  width: 80%;
+  margin: 0 auto;
+}

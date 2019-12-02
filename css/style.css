@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+  overflow: hidden;
+}
+
+.bgcontainer{
+  background-color: black;
+  color: white;
+}
+.container{
+  width: 80%;
+  height: 100vh;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+form p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: red !important; 
+}
+
+header{
+  height: 300px;
+  width: 100%;
+  /* background-color: blue; */
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hbox{
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  width: 200px;
+  height: 200px;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputbox{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+span{
+  font-size: 50px;
+}
+
+input{
+  font-size: 50px;
+}
+
+button{
+  width: 200px;
+}

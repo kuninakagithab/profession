@@ -38,7 +38,6 @@ echo($all_check_sum);
 </head>
 <body>
 <p>あなたに適した職業は、、、</p>
-  <p></p>
   <?php if(1 <= $all_check_sum &&  $all_check_sum <= 7 ): ?>
   <img src="img/asobininn.jpeg">
   <p>遊び人です</p>
